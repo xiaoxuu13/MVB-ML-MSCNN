@@ -1,0 +1,20 @@
+# 核心数据处理
+numpy>=1.26.0
+pandas>=2.2.0
+
+# 信号处理 (STFT)
+scipy>=1.12.0
+
+# 图像处理 (OpenCV)
+opencv-python>=4.9.0.80
+
+# 机器学习与评估 (MultiLabelBinarizer, F1-score)
+scikit-learn>=1.4.0
+
+# 深度学习框架 (PyTorch)
+# 注意：PyTorch 的安装可能需要单独处理以支持 CUDA（见下文说明）
+torch>=2.2.0
+torchvision>=0.17.0
+
+# 进度条显示
+tqdm>=4.66.0
